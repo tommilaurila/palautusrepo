@@ -1,0 +1,13 @@
+Asiakas->Palvelin: POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+
+note right of Palvelin:
+Vastaanotettiin uusi muistiinpano 
+{content: "test", date: "2021-06-08T09:49:44.021Z"}
+ja tallennettiin muistiin
+end note
+
+note over Asiakas:
+selain suorittaa js-koodin joka
+lisää uuden muistiinpanon listaan
+ja renderöi muistiinpanot näytölle
+end note
